@@ -40,6 +40,8 @@ public class Main {
         }
 
         System.out.println("Deleted successfully.");
+
+        list = studentDAO.findAll();
         printStudentList(list);
     }
 
